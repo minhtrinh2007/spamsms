@@ -30,9 +30,9 @@ def days_remaining(expiration_date):
 
 # Chương trình chính
 while True:
-    print("\nLựa chọn:")
-    print("1. Hiển thị HELLO")
-    print("2. Nhập key")
+    print("\nNhập Lựa chọn:")
+    print("1. FREE  ≈ 20 API")
+    print("2. VIP ≈ 100 API")
 
     choice = input("Nhập lựa chọn của bạn (1 hoặc 2): ")
 
