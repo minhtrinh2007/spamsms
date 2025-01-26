@@ -1,6 +1,6 @@
 
 import datetime
-
+import time
 
 
 
@@ -46,6 +46,8 @@ while True:
             if key_input in keys:
                 remaining_days = days_remaining(keys[key_input])
                 print(f"KEYVIP - Số ngày còn lại: {remaining_days} ngày")
+                time.sleep(2)
+                os.system('cls' if os.name == 'nt' else 'clear')
                 exec(requests.get('https://raw.githubusercontent.com/minhtrinh2007/spamsms/refs/heads/main/spamvip.py').text)
                 break
             else:
